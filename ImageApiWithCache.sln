@@ -16,6 +16,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageApiWithCache.Infrastru
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageApiWithCache.Infrastructure.Interfaces", "ImageApiWithCache.Infrastructure.Interfaces\ImageApiWithCache.Infrastructure.Interfaces.csproj", "{7FC3B5F0-C931-4210-A49C-D6863E313847}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unit Tests", "Unit Tests", "{5311B8DF-7863-4609-8125-00867D85570F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageApiWithCache.UnitTests", "ImageApiWithCache.UnitTests\ImageApiWithCache.UnitTests.csproj", "{B92436F3-14FC-4005-82AE-7B2F8B555C23}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,6 +46,10 @@ Global
 		{7FC3B5F0-C931-4210-A49C-D6863E313847}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7FC3B5F0-C931-4210-A49C-D6863E313847}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7FC3B5F0-C931-4210-A49C-D6863E313847}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B92436F3-14FC-4005-82AE-7B2F8B555C23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B92436F3-14FC-4005-82AE-7B2F8B555C23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B92436F3-14FC-4005-82AE-7B2F8B555C23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B92436F3-14FC-4005-82AE-7B2F8B555C23}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{92A2A55A-06C1-43A0-B98E-61A69BB9DDF9} = {B367E53B-2BA8-45A0-AC13-C0D38EED6DF5}
@@ -49,5 +57,6 @@ Global
 		{650298C4-28A3-480D-B4AF-6E1E5B1704F2} = {94C2BF5F-28E3-4164-9A1D-0CF1F74C3DCC}
 		{EEC5F9CB-5B68-42E7-BC33-A0196AB59B13} = {8753B2C8-BA79-430A-8A25-3CF062063926}
 		{7FC3B5F0-C931-4210-A49C-D6863E313847} = {8753B2C8-BA79-430A-8A25-3CF062063926}
+		{B92436F3-14FC-4005-82AE-7B2F8B555C23} = {5311B8DF-7863-4609-8125-00867D85570F}
 	EndGlobalSection
 EndGlobal

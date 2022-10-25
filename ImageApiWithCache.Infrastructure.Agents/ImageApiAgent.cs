@@ -1,10 +1,12 @@
-﻿using System.Text.Json;
+﻿using System.Diagnostics.CodeAnalysis;
+using System.Text.Json;
 using Flurl.Http;
 using ImageApiWithCache.Infrastructure.Interfaces.Agents;
 using Polly;
 
 namespace ImageApiWithCache.Infrastructure.Agents;
 
+[ExcludeFromCodeCoverage]
 public class ImageApiAgent : IImageApiAgent
 {
     public async Task<JsonElement> GetAlbumById(int albumId)

@@ -1,10 +1,10 @@
-﻿using System.Text.Json;
-using System.Text.Json.Serialization;
+﻿using System.Diagnostics.CodeAnalysis;
+using System.Text.Json;
 using ImageApiWithCache.Domain.Interfaces;
 using Microsoft.Extensions.Caching.Distributed;
 
 namespace ImageApiWithCache.Models.Service;
-
+[ExcludeFromCodeCoverage]
 public class ResponseCacheService : IResponseCacheService
 {
     private readonly IDistributedCache _distributedCache;
