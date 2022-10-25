@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<coverage version="1">
+  <file path="C:\Users\ACT\Documents\Projetos\Pessoal\ImageApiWithCache\ImageApiWithCache.Domain.Services\ImageApiService.cs">
+    <lineToCover lineNumber="11" covered="true" />
+    <lineToCover lineNumber="12" covered="true" />
+    <lineToCover lineNumber="13" covered="true" />
+    <lineToCover lineNumber="14" covered="true" />
+    <lineToCover lineNumber="17" covered="true" />
+    <lineToCover lineNumber="18" covered="true" />
+    <lineToCover lineNumber="19" covered="true" />
+    <lineToCover lineNumber="22" covered="true" />
+    <lineToCover lineNumber="23" covered="true" />
+    <lineToCover lineNumber="24" covered="true" />
+  </file>
+</coverage>

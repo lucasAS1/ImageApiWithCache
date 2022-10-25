@@ -4,3 +4,4 @@ obj/
 riderModule.iml
 /_ReSharper.Caches/
 ImageApiWithCache.sln.DotSettings.user
+run-and-configure-sonar.sh
