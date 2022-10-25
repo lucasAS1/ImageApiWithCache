@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
+      <PackageReference Include="Microsoft.Extensions.Caching.StackExchangeRedis" Version="7.0.0-rc.2.22476.2" />
+      <PackageReference Include="Polly" Version="7.2.3" />
+      <PackageReference Include="Flurl" Version="3.0.6.0" Culture="neutral" PublicKeyToken="null" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Reference Include="Flurl.Http">
+        <HintPath>C:\Users\lucas\.nuget\packages\flurl.http\4.0.0-pre2\lib\net6.0\Flurl.Http.dll</HintPath>
+      </Reference>
+      <Reference Include="Microsoft.AspNetCore.Http.Abstractions" />
+      <Reference Include="Microsoft.AspNetCore.Mvc.Abstractions">
+        <HintPath>C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.0\Microsoft.AspNetCore.Mvc.Abstractions.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\ImageApiWithCache.Domain.Interfaces\ImageApiWithCache.Domain.Interfaces.csproj" />
+      <ProjectReference Include="..\ImageApiWithCache.Infrastructure.Interfaces\ImageApiWithCache.Infrastructure.Interfaces.csproj" />
+    </ItemGroup>
+
+</Project>
