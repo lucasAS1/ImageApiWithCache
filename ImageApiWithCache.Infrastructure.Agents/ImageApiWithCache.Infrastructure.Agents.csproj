@@ -17,7 +17,6 @@
       <Reference Include="Flurl.Http">
         <HintPath>C:\Users\lucas\.nuget\packages\flurl.http\4.0.0-pre2\lib\net6.0\Flurl.Http.dll</HintPath>
       </Reference>
-      <Reference Include="Microsoft.AspNetCore.Http.Abstractions" />
       <Reference Include="Microsoft.AspNetCore.Mvc.Abstractions">
         <HintPath>C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\6.0.0\Microsoft.AspNetCore.Mvc.Abstractions.dll</HintPath>
       </Reference>
